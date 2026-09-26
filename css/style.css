@@ -69,8 +69,8 @@ a{color:inherit}
 .hero__media img{width:100%;height:auto;aspect-ratio:5/4;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow-md);display:block}
 
 /* ===================== SECTION RHYTHM ===================== */
-.usps,.services,.why,.steps,.projects,.reviews,.area,.faq,.contact{padding-block:clamp(2rem,4.5vw,3.5rem)}
-.services,.reviews,.contact{background:var(--tint-2)}
+.usps,.services,.why,.steps,.projects,.area,.faq,.contact{padding-block:clamp(2rem,4.5vw,3.5rem)}
+.services,.contact{background:var(--tint-2)}
 .section-head{max-width:660px;margin:0 auto clamp(1.3rem,3vw,2rem);text-align:center}
 .section-head h2{font-size:clamp(1.6rem,3.6vw,2.4rem);font-weight:700}
 .section-head .eyebrow{justify-content:center}
@@ -115,14 +115,6 @@ a{color:inherit}
 .project-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
 .project-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 42%,rgba(18,32,58,.6));pointer-events:none}
 .project-card h3{position:absolute;left:1.1rem;bottom:1rem;z-index:1;color:#fff;font-size:1.05rem;text-shadow:0 1px 10px rgba(0,0,0,.4)}
-
-/* ---- Reviews ---- */
-.reviews__grid{list-style:none;margin:0;padding:0;display:grid;gap:1.2rem;grid-template-columns:1fr}
-.review-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1.7rem;box-shadow:var(--shadow-sm)}
-.review-card blockquote{margin:0}
-.review-card blockquote p{color:var(--text)}
-.review-card blockquote p::before{content:"“";color:var(--blue);font-family:"Sora",sans-serif;font-size:1.4rem;margin-right:.1rem;vertical-align:-.15em}
-.review-card__author{margin-top:1rem;color:var(--muted);font-weight:600;font-size:.9rem}
 
 /* ---- Servicegebied (dark band) ---- */
 .area{background:var(--navy);color:#fff}
@@ -172,14 +164,14 @@ a{color:inherit}
 /* ===================== RESPONSIVE ===================== */
 @media (min-width:560px){
   .usps__grid{grid-template-columns:repeat(2,1fr)}
-  .services__grid,.projects__grid,.reviews__grid{grid-template-columns:repeat(2,1fr)}
+  .services__grid,.projects__grid{grid-template-columns:repeat(2,1fr)}
 }
 @media (min-width:768px){
   .steps__list{grid-template-columns:repeat(3,1fr)}
   .site-footer__inner{grid-template-columns:1.5fr 1fr 1fr;gap:2.5rem}
 }
 @media (min-width:900px){
-  .services__grid,.projects__grid,.reviews__grid{grid-template-columns:repeat(3,1fr)}
+  .services__grid,.projects__grid{grid-template-columns:repeat(3,1fr)}
   .usps__grid{grid-template-columns:repeat(4,1fr)}
   .hero__inner{grid-template-columns:1.1fr .9fr;align-items:center;gap:3rem}
   .why__inner{grid-template-columns:.9fr 1.1fr;align-items:center;gap:3rem}
