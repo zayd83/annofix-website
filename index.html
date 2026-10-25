@@ -245,7 +245,10 @@
           </ul>
         </div>
 
-        <form class="offerte-form" action="#" method="post">
+        <form class="offerte-form" action="https://formsubmit.co/info@annofixinstallaties.nl" method="POST">
+          <input type="hidden" name="_subject" value="Nieuwe offerteaanvraag via de website">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
           <div class="field">
             <label for="naam">Naam</label>
             <input type="text" id="naam" name="naam" autocomplete="name" required>
@@ -278,14 +281,15 @@
           </div>
           <!-- Honeypot tegen spam -->
           <div class="field field--hp" aria-hidden="true">
-            <label for="website">Laat dit veld leeg</label>
-            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+            <label for="_honey">Laat dit veld leeg</label>
+            <input type="text" id="_honey" name="_honey" tabindex="-1" autocomplete="off">
           </div>
           <div class="field field--check">
             <input type="checkbox" id="akkoord" name="akkoord" required>
             <label for="akkoord">Ik ga akkoord dat mijn gegevens gebruikt worden om contact op te nemen.</label>
           </div>
           <button class="btn btn--primary" type="submit">Verstuur aanvraag</button>
+          <p class="offerte-form__status" aria-live="polite"></p>
         </form>
       </div>
     </section>

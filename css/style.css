@@ -147,6 +147,8 @@ a{color:inherit}
 .field--check{grid-template-columns:auto 1fr;align-items:start;gap:.6rem}
 .field--check input{width:auto;margin-top:.25rem}
 .field--check label{font-weight:400;color:var(--muted);font-size:.9rem}
+.offerte-form__status{margin:0;font-size:.9rem;font-weight:600;color:var(--navy);min-height:1.2em}
+.offerte-form__status.is-error{color:#b3261e}
 .offerte-form .btn{width:100%;margin-top:.3rem}
 
 /* ===================== FOOTER ===================== */
