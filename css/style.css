@@ -40,6 +40,10 @@ a{color:inherit}
 .brand{margin-right:auto;display:inline-flex}
 .brand img{height:30px;width:auto;display:block}
 
+.nav{display:flex;align-items:center;gap:.5rem}
+.lang-toggle{order:2;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;min-width:40px;height:32px;padding:0 .6rem;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--ink);font-family:"Sora",sans-serif;font-weight:600;font-size:.78rem;letter-spacing:.02em;cursor:pointer}
+.lang-toggle:hover{border-color:var(--navy);color:var(--navy)}
+
 .nav__toggle{order:3;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;padding:0;background:transparent;border:0;cursor:pointer;color:var(--ink)}
 .nav__toggle-bars,.nav__toggle-bars::before,.nav__toggle-bars::after{content:"";display:block;width:20px;height:2px;background:currentColor;border-radius:2px;transition:transform .2s ease,opacity .2s ease}
 .nav__toggle-bars{position:relative}

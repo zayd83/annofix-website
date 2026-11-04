@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Annofix Installaties — Loodgieter voor heel Nederland</title>
-  <meta name="description" content="Annofix Installaties: uw vaste loodgieter voor lekkages, verstoppingen, sanitair, waterleidingen, riolering en onderhoud. Vakwerk, duidelijke afspraken, heel Nederland.">
+  <title data-i18n="meta.title">Annofix Installaties — Loodgieter voor heel Nederland</title>
+  <meta name="description" data-i18n-content="meta.description" content="Annofix Installaties: uw vaste loodgieter voor lekkages, verstoppingen, sanitair, waterleidingen, riolering en onderhoud. Vakwerk, duidelijke afspraken, heel Nederland.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <a class="skip-link" href="#main">Direct naar inhoud</a>
+  <a class="skip-link" href="#main" data-i18n="skip.link">Direct naar inhoud</a>
 
   <!-- ================= HEADER / NAV ================= -->
   <header class="site-header">
@@ -21,16 +21,17 @@
         <img src="assets/logo-annofix.png" alt="Annofix Installaties">
       </a>
 
-      <nav class="nav" aria-label="Hoofdnavigatie">
-        <button class="nav__toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Menu openen">
+      <nav class="nav" data-i18n-aria-label="nav.ariaLabel" aria-label="Hoofdnavigatie">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="primary-menu" data-i18n-aria-label="nav.menuOpen" aria-label="Menu openen">
           <span class="nav__toggle-bars"></span>
         </button>
         <ul class="nav__menu" id="primary-menu">
-          <li><a href="#diensten">Diensten</a></li>
-          <li><a href="#over-ons">Over ons</a></li>
-          <li><a href="#projecten">Projecten</a></li>
-          <li><a href="#offerte">Contact</a></li>
+          <li><a href="#diensten" data-i18n="nav.services">Diensten</a></li>
+          <li><a href="#over-ons" data-i18n="nav.about">Over ons</a></li>
+          <li><a href="#projecten" data-i18n="nav.projects">Projecten</a></li>
+          <li><a href="#offerte" data-i18n="nav.contact">Contact</a></li>
         </ul>
+        <button class="lang-toggle" id="langToggle" type="button" data-i18n-aria-label="nav.langSwitch" aria-label="Switch to English">EN</button>
       </nav>
     </div>
   </header>
@@ -41,21 +42,21 @@
     <section class="hero">
       <div class="container hero__inner">
         <div class="hero__content">
-          <p class="eyebrow">Loodgieter · heel Nederland</p>
-          <h1>Vakwerk waar u op kunt rekenen, van lekkage tot complete badkamer</h1>
-          <p class="hero__lead">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Loodgieter · heel Nederland</p>
+          <h1 data-i18n="hero.h1">Vakwerk waar u op kunt rekenen, van lekkage tot complete badkamer</h1>
+          <p class="hero__lead" data-i18n="hero.lead">
             Eén vast aanspreekpunt, duidelijke afspraken en nette uitvoering, voor
             particulier en zakelijk in heel Nederland.
           </p>
           <div class="hero__actions">
-            <a class="btn btn--primary" href="#offerte">Offerte aanvragen</a>
-            <a class="btn btn--whatsapp" href="https://wa.me/31644843296">WhatsApp ons</a>
-            <a class="btn btn--ghost" href="tel:+31644843296">Bel 06 44 84 32 96</a>
+            <a class="btn btn--primary" href="#offerte" data-i18n="hero.ctaOffer">Offerte aanvragen</a>
+            <a class="btn btn--whatsapp" href="https://wa.me/31644843296" data-i18n="hero.ctaWhatsapp">WhatsApp ons</a>
+            <a class="btn btn--ghost" href="tel:+31644843296" data-i18n="hero.ctaCall">Bel 06 44 84 32 96</a>
           </div>
           <ul class="hero__trust">
-            <li>Eén vast aanspreekpunt</li>
-            <li>Duidelijke prijsafspraken</li>
-            <li>Particulier &amp; zakelijk</li>
+            <li data-i18n="hero.trust1">Eén vast aanspreekpunt</li>
+            <li data-i18n="hero.trust2">Duidelijke prijsafspraken</li>
+            <li data-i18n="hero.trust3">Particulier &amp; zakelijk</li>
           </ul>
         </div>
         <figure class="hero__media">
@@ -65,23 +66,23 @@
     </section>
 
     <!-- ================= USP-STRIP ================= -->
-    <section class="usps" aria-label="Onze belofte">
+    <section class="usps" data-i18n-aria-label="usps.ariaLabel" aria-label="Onze belofte">
       <div class="container usps__grid">
         <div class="usp">
-          <h2 class="usp__title">Vast aanspreekpunt</h2>
-          <p>Steeds dezelfde persoon. Geen doorschuiven.</p>
+          <h2 class="usp__title" data-i18n="usps.1.title">Vast aanspreekpunt</h2>
+          <p data-i18n="usps.1.text">Steeds dezelfde persoon. Geen doorschuiven.</p>
         </div>
         <div class="usp">
-          <h2 class="usp__title">Heldere afspraken</h2>
-          <p>Vooraf weet u wat het kost.</p>
+          <h2 class="usp__title" data-i18n="usps.2.title">Heldere afspraken</h2>
+          <p data-i18n="usps.2.text">Vooraf weet u wat het kost.</p>
         </div>
         <div class="usp">
-          <h2 class="usp__title">Nette uitvoering</h2>
-          <p>Vakwerk en een schone werkplek.</p>
+          <h2 class="usp__title" data-i18n="usps.3.title">Nette uitvoering</h2>
+          <p data-i18n="usps.3.text">Vakwerk en een schone werkplek.</p>
         </div>
         <div class="usp">
-          <h2 class="usp__title">Heel Nederland</h2>
-          <p>Particulier én zakelijk, door het hele land.</p>
+          <h2 class="usp__title" data-i18n="usps.4.title">Heel Nederland</h2>
+          <p data-i18n="usps.4.text">Particulier én zakelijk, door het hele land.</p>
         </div>
       </div>
     </section>
@@ -90,39 +91,39 @@
     <section class="services" id="diensten">
       <div class="container">
         <header class="section-head">
-          <p class="eyebrow">Diensten</p>
-          <h2>Alles onder één dak voor water, sanitair en afvoer</h2>
-          <p class="section-head__lead">Van een acute lekkage tot een complete badkamer, alles bij één betrouwbare partij.</p>
+          <p class="eyebrow" data-i18n="services.eyebrow">Diensten</p>
+          <h2 data-i18n="services.h2">Alles onder één dak voor water, sanitair en afvoer</h2>
+          <p class="section-head__lead" data-i18n="services.lead">Van een acute lekkage tot een complete badkamer, alles bij één betrouwbare partij.</p>
         </header>
 
         <ul class="services__grid">
           <li class="service-card">
-            <h3>Lekkages</h3>
-            <p>Een lekkage kan snel voor vervelende schade zorgen. Annofix helpt bij het opsporen en verhelpen van lekkages aan onder andere waterleidingen, kranen, sanitair en afvoeren. We zoeken eerst naar de oorzaak en zorgen vervolgens voor een passende en duurzame oplossing.</p>
+            <h3 data-i18n="services.1.title">Lekkages</h3>
+            <p data-i18n="services.1.text">Een lekkage kan snel voor vervelende schade zorgen. Annofix helpt bij het opsporen en verhelpen van lekkages aan onder andere waterleidingen, kranen, sanitair en afvoeren. We zoeken eerst naar de oorzaak en zorgen vervolgens voor een passende en duurzame oplossing.</p>
           </li>
           <li class="service-card">
-            <h3>Verstoppingen</h3>
-            <p>Last van een verstopte gootsteen, afvoer of toilet? We zoeken uit waar de verstopping zit en zorgen ervoor dat de afvoer weer goed doorloopt. Daarbij kijken we ook naar de mogelijke oorzaak, zodat het probleem niet onnodig terugkomt.</p>
+            <h3 data-i18n="services.2.title">Verstoppingen</h3>
+            <p data-i18n="services.2.text">Last van een verstopte gootsteen, afvoer of toilet? We zoeken uit waar de verstopping zit en zorgen ervoor dat de afvoer weer goed doorloopt. Daarbij kijken we ook naar de mogelijke oorzaak, zodat het probleem niet onnodig terugkomt.</p>
           </li>
           <li class="service-card">
-            <h3>Sanitair &amp; badkamers</h3>
-            <p>Van het vervangen van een kraan of toilet tot het installeren van sanitair voor een complete badkamer. Annofix verzorgt het leiding- en installatiewerk en denkt mee over een praktische oplossing die past bij de ruimte en uw wensen.</p>
+            <h3 data-i18n="services.3.title">Sanitair &amp; badkamers</h3>
+            <p data-i18n="services.3.text">Van het vervangen van een kraan of toilet tot het installeren van sanitair voor een complete badkamer. Annofix verzorgt het leiding- en installatiewerk en denkt mee over een praktische oplossing die past bij de ruimte en uw wensen.</p>
           </li>
           <li class="service-card">
-            <h3>Waterleidingen</h3>
-            <p>Nieuwe waterleidingen nodig of bestaande leidingen laten aanpassen of vervangen? Wij verzorgen leidingwerk voor onder andere keukens, badkamers, toiletten en andere ruimtes. Ook bij verbouwingen of het verplaatsen van aansluitpunten kunt u bij ons terecht.</p>
+            <h3 data-i18n="services.4.title">Waterleidingen</h3>
+            <p data-i18n="services.4.text">Nieuwe waterleidingen nodig of bestaande leidingen laten aanpassen of vervangen? Wij verzorgen leidingwerk voor onder andere keukens, badkamers, toiletten en andere ruimtes. Ook bij verbouwingen of het verplaatsen van aansluitpunten kunt u bij ons terecht.</p>
           </li>
           <li class="service-card">
-            <h3>Riolering</h3>
-            <p>Problemen met de riolering kunnen zorgen voor verstoppingen, lekkages en nare geuren. Annofix helpt bij het aanleggen, controleren, reinigen en repareren van riolering en zoekt gericht naar de oorzaak van het probleem.</p>
+            <h3 data-i18n="services.5.title">Riolering</h3>
+            <p data-i18n="services.5.text">Problemen met de riolering kunnen zorgen voor verstoppingen, lekkages en nare geuren. Annofix helpt bij het aanleggen, controleren, reinigen en repareren van riolering en zoekt gericht naar de oorzaak van het probleem.</p>
           </li>
           <li class="service-card">
-            <h3>Dakbedekking</h3>
-            <p>Een goed dak beschermt uw woning of bedrijfspand tegen vocht en lekkages. Wij verzorgen werkzaamheden aan dakbedekking en waterafvoer en kunnen beschadigingen of lekkages aan het dak herstellen.</p>
+            <h3 data-i18n="services.6.title">Dakbedekking</h3>
+            <p data-i18n="services.6.text">Een goed dak beschermt uw woning of bedrijfspand tegen vocht en lekkages. Wij verzorgen werkzaamheden aan dakbedekking en waterafvoer en kunnen beschadigingen of lekkages aan het dak herstellen.</p>
           </li>
           <li class="service-card">
-            <h3>Onderhoud &amp; reparatie</h3>
-            <p>Ook voor kleinere reparaties en onderhoudswerkzaamheden kunt u bij Annofix terecht. Denk aan lekkende kranen, problemen met afvoeren, leidingwerk of sanitair. Door problemen tijdig te verhelpen, kan grotere schade vaak worden voorkomen.</p>
+            <h3 data-i18n="services.7.title">Onderhoud &amp; reparatie</h3>
+            <p data-i18n="services.7.text">Ook voor kleinere reparaties en onderhoudswerkzaamheden kunt u bij Annofix terecht. Denk aan lekkende kranen, problemen met afvoeren, leidingwerk of sanitair. Door problemen tijdig te verhelpen, kan grotere schade vaak worden voorkomen.</p>
           </li>
         </ul>
       </div>
@@ -135,70 +136,70 @@
           <img src="assets/anouar-annofix.jpg" alt="Anouar van Annofix Installaties">
         </div>
         <div class="why__content">
-          <p class="eyebrow">Over Annofix</p>
-          <h2>Vakmanschap en persoonlijke service, zonder gedoe</h2>
-          <p>
+          <p class="eyebrow" data-i18n="why.eyebrow">Over Annofix</p>
+          <h2 data-i18n="why.h2">Vakmanschap en persoonlijke service, zonder gedoe</h2>
+          <p data-i18n="why.text">
             Annofix Installaties staat voor betrouwbaar vakwerk en korte lijnen. U heeft één vast
             aanspreekpunt dat meedenkt, duidelijke afspraken maakt en het werk netjes oplevert.
             Zo weet u altijd waar u aan toe bent.
           </p>
           <ul class="why__points">
-            <li>Persoonlijk contact van eerste vraag tot oplevering</li>
-            <li>Eerlijk advies en een transparante prijs</li>
-            <li>Werk dat klopt, ook als niemand meekijkt</li>
+            <li data-i18n="why.point1">Persoonlijk contact van eerste vraag tot oplevering</li>
+            <li data-i18n="why.point2">Eerlijk advies en een transparante prijs</li>
+            <li data-i18n="why.point3">Werk dat klopt, ook als niemand meekijkt</li>
           </ul>
-          <a class="btn btn--primary" href="#offerte">Vraag vrijblijvend een offerte aan</a>
+          <a class="btn btn--primary" href="#offerte" data-i18n="why.cta">Vraag vrijblijvend een offerte aan</a>
         </div>
       </div>
     </section>
 
     <!-- ================= WERKWIJZE ================= -->
-    <section class="steps" aria-label="Zo werken wij">
+    <section class="steps" data-i18n-aria-label="steps.ariaLabel" aria-label="Zo werken wij">
       <div class="container">
         <header class="section-head">
-          <p class="eyebrow">Werkwijze</p>
-          <h2>In drie stappen geregeld</h2>
+          <p class="eyebrow" data-i18n="steps.eyebrow">Werkwijze</p>
+          <h2 data-i18n="steps.h2">In drie stappen geregeld</h2>
         </header>
         <ol class="steps__list">
           <li class="step">
-            <h3>1 · Contact</h3>
-            <p>Bel, WhatsApp of vul het formulier in. U krijgt snel persoonlijk antwoord.</p>
+            <h3 data-i18n="steps.1.title">1 · Contact</h3>
+            <p data-i18n="steps.1.text">Bel, WhatsApp of vul het formulier in. U krijgt snel persoonlijk antwoord.</p>
           </li>
           <li class="step">
-            <h3>2 · Offerte &amp; afspraak</h3>
-            <p>We bespreken uw situatie en maken een heldere prijsafspraak.</p>
+            <h3 data-i18n="steps.2.title">2 · Offerte &amp; afspraak</h3>
+            <p data-i18n="steps.2.text">We bespreken uw situatie en maken een heldere prijsafspraak.</p>
           </li>
           <li class="step">
-            <h3>3 · Uitvoering</h3>
-            <p>We voeren het werk vakkundig uit en leveren netjes op.</p>
+            <h3 data-i18n="steps.3.title">3 · Uitvoering</h3>
+            <p data-i18n="steps.3.text">We voeren het werk vakkundig uit en leveren netjes op.</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <!-- ================= PROJECTEN (placeholder) ================= -->
+    <!-- ================= PROJECTEN ================= -->
     <section class="projects" id="projecten">
       <div class="container">
         <header class="section-head">
-          <p class="eyebrow">Projecten</p>
-          <h2>Recent werk</h2>
-          <p class="section-head__lead">Een greep uit onze uitgevoerde klussen. <!-- Foto's volgen zodra beschikbaar --></p>
+          <p class="eyebrow" data-i18n="projects.eyebrow">Projecten</p>
+          <h2 data-i18n="projects.h2">Recent werk</h2>
+          <p class="section-head__lead" data-i18n="projects.lead">Een greep uit onze uitgevoerde klussen.</p>
         </header>
         <ul class="projects__grid">
-          <li class="project-card"><img src="assets/project-1.jpg" alt="Project — badkamerrenovatie"><h3>Badkamerrenovatie</h3></li>
-          <li class="project-card"><img src="assets/project-2.jpg" alt="Project — leidingwerk"><h3>Nieuw leidingwerk</h3></li>
-          <li class="project-card"><img src="assets/project-3.jpg" alt="Project — rioolreparatie"><h3>Rioolreparatie</h3></li>
+          <li class="project-card"><img src="assets/project-badkamer-wastafel.jpg" alt="Project — badkamerrenovatie, wastafelmeubel met spiegel"><h3 data-i18n="projects.item1">Badkamerrenovatie</h3></li>
+          <li class="project-card"><img src="assets/project-badkamer-douche.jpg" alt="Project — badkamerrenovatie, inloopdouche"><h3 data-i18n="projects.item2">Inloopdouche</h3></li>
+          <li class="project-card"><img src="assets/project-badkamer-toilet.jpg" alt="Project — badkamerrenovatie, toilet en afwerking"><h3 data-i18n="projects.item3">Toilet &amp; afwerking</h3></li>
         </ul>
       </div>
     </section>
 
     <!-- ================= SERVICEGEBIED ================= -->
-    <section class="area" aria-label="Servicegebied">
+    <section class="area" data-i18n-aria-label="area.ariaLabel" aria-label="Servicegebied">
       <div class="container area__inner">
         <div class="area__content">
-          <h2>Werkzaam in heel Nederland</h2>
-          <p>Waar u ook zit. Wij komen bij u langs voor particulier en zakelijk werk. Twijfelt u of we bij u werken? Neem contact op, we denken graag mee.</p>
-          <a class="btn btn--ghost" href="tel:+31644843296">Bel 06 44 84 32 96</a>
+          <h2 data-i18n="area.h2">Werkzaam in heel Nederland</h2>
+          <p data-i18n="area.text">Waar u ook zit. Wij komen bij u langs voor particulier en zakelijk werk. Twijfelt u of we bij u werken? Neem contact op, we denken graag mee.</p>
+          <a class="btn btn--ghost" href="tel:+31644843296" data-i18n="area.cta">Bel 06 44 84 32 96</a>
         </div>
       </div>
     </section>
@@ -207,25 +208,25 @@
     <section class="faq" id="faq">
       <div class="container">
         <header class="section-head">
-          <p class="eyebrow">Veelgestelde vragen</p>
-          <h2>Goed om te weten</h2>
+          <p class="eyebrow" data-i18n="faq.eyebrow">Veelgestelde vragen</p>
+          <h2 data-i18n="faq.h2">Goed om te weten</h2>
         </header>
         <div class="faq__list">
           <details class="faq-item">
-            <summary>Werken jullie in heel Nederland?</summary>
-            <p>Ja. We helpen particulieren en bedrijven door het hele land.</p>
+            <summary data-i18n="faq.q1">Werken jullie in heel Nederland?</summary>
+            <p data-i18n="faq.a1">Ja. We helpen particulieren en bedrijven door het hele land.</p>
           </details>
           <details class="faq-item">
-            <summary>Kan ik vooraf een prijsindicatie krijgen?</summary>
-            <p>Zeker. We maken vooraf heldere afspraken, zodat u niet voor verrassingen komt te staan.</p>
+            <summary data-i18n="faq.q2">Kan ik vooraf een prijsindicatie krijgen?</summary>
+            <p data-i18n="faq.a2">Zeker. We maken vooraf heldere afspraken, zodat u niet voor verrassingen komt te staan.</p>
           </details>
           <details class="faq-item">
-            <summary>Voor welke klussen kan ik terecht?</summary>
-            <p>Van lekkages en verstoppingen tot sanitair, waterleidingen, riolering, dakbedekking en onderhoud.</p>
+            <summary data-i18n="faq.q3">Voor welke klussen kan ik terecht?</summary>
+            <p data-i18n="faq.a3">Van lekkages en verstoppingen tot sanitair, waterleidingen, riolering, dakbedekking en onderhoud.</p>
           </details>
           <details class="faq-item">
-            <summary>Hoe snel kan ik geholpen worden?</summary>
-            <p>Neem contact op via telefoon of WhatsApp; we reageren snel en plannen samen een moment in.</p>
+            <summary data-i18n="faq.q4">Hoe snel kan ik geholpen worden?</summary>
+            <p data-i18n="faq.a4">Neem contact op via telefoon of WhatsApp; we reageren snel en plannen samen een moment in.</p>
           </details>
         </div>
       </div>
@@ -235,9 +236,9 @@
     <section class="contact" id="offerte">
       <div class="container contact__inner">
         <div class="contact__intro">
-          <p class="eyebrow">Contact</p>
-          <h2>Offerte aanvragen of direct contact</h2>
-          <p>Laat uw gegevens achter voor een vrijblijvende offerte, of neem meteen contact op.</p>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.h2">Offerte aanvragen of direct contact</h2>
+          <p data-i18n="contact.text">Laat uw gegevens achter voor een vrijblijvende offerte, of neem meteen contact op.</p>
           <ul class="contact__methods">
             <li><a href="tel:+31644843296">06 44 84 32 96</a></li>
             <li><a href="https://wa.me/31644843296">WhatsApp</a></li>
@@ -250,45 +251,45 @@
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_captcha" value="false">
           <div class="field">
-            <label for="naam">Naam</label>
+            <label for="naam" data-i18n="form.naam">Naam</label>
             <input type="text" id="naam" name="naam" autocomplete="name" required>
           </div>
           <div class="field">
-            <label for="telefoon">Telefoonnummer</label>
+            <label for="telefoon" data-i18n="form.telefoon">Telefoonnummer</label>
             <input type="tel" id="telefoon" name="telefoon" autocomplete="tel" required>
           </div>
           <div class="field">
-            <label for="email">E-mailadres</label>
+            <label for="email" data-i18n="form.email">E-mailadres</label>
             <input type="email" id="email" name="email" autocomplete="email">
           </div>
           <div class="field">
-            <label for="dienst">Waar kunnen we mee helpen?</label>
+            <label for="dienst" data-i18n="form.dienst">Waar kunnen we mee helpen?</label>
             <select id="dienst" name="dienst">
-              <option value="">Kies een dienst</option>
-              <option>Lekkages</option>
-              <option>Verstoppingen</option>
-              <option>Sanitair &amp; badkamers</option>
-              <option>Waterleidingen</option>
-              <option>Riolering</option>
-              <option>Dakbedekking</option>
-              <option>Onderhoud &amp; reparatie</option>
-              <option>Anders</option>
+              <option value="" data-i18n="form.dienstChoose">Kies een dienst</option>
+              <option data-i18n="services.1.title">Lekkages</option>
+              <option data-i18n="services.2.title">Verstoppingen</option>
+              <option data-i18n="services.3.title">Sanitair &amp; badkamers</option>
+              <option data-i18n="services.4.title">Waterleidingen</option>
+              <option data-i18n="services.5.title">Riolering</option>
+              <option data-i18n="services.6.title">Dakbedekking</option>
+              <option data-i18n="services.7.title">Onderhoud &amp; reparatie</option>
+              <option data-i18n="form.dienstOther">Anders</option>
             </select>
           </div>
           <div class="field">
-            <label for="bericht">Uw bericht</label>
+            <label for="bericht" data-i18n="form.bericht">Uw bericht</label>
             <textarea id="bericht" name="bericht" rows="4"></textarea>
           </div>
           <!-- Honeypot tegen spam -->
           <div class="field field--hp" aria-hidden="true">
-            <label for="_honey">Laat dit veld leeg</label>
+            <label for="_honey" data-i18n="form.honeypot">Laat dit veld leeg</label>
             <input type="text" id="_honey" name="_honey" tabindex="-1" autocomplete="off">
           </div>
           <div class="field field--check">
             <input type="checkbox" id="akkoord" name="akkoord" required>
-            <label for="akkoord">Ik ga akkoord dat mijn gegevens gebruikt worden om contact op te nemen.</label>
+            <label for="akkoord" data-i18n="form.akkoord">Ik ga akkoord dat mijn gegevens gebruikt worden om contact op te nemen.</label>
           </div>
-          <button class="btn btn--primary" type="submit">Verstuur aanvraag</button>
+          <button class="btn btn--primary" type="submit" data-i18n="form.submit">Verstuur aanvraag</button>
           <p class="offerte-form__status" aria-live="polite"></p>
         </form>
       </div>
@@ -301,16 +302,16 @@
     <div class="container site-footer__inner">
       <div class="site-footer__brand">
         <img src="assets/logo-annofix.png" alt="Annofix Installaties">
-        <p>Vakwerk in loodgieterij en installatie, voor heel Nederland.</p>
+        <p data-i18n="footer.tagline">Vakwerk in loodgieterij en installatie, voor heel Nederland.</p>
       </div>
-      <nav class="site-footer__nav" aria-label="Footernavigatie">
-        <h2>Diensten</h2>
+      <nav class="site-footer__nav" data-i18n-aria-label="footer.ariaLabel" aria-label="Footernavigatie">
+        <h2 data-i18n="nav.services">Diensten</h2>
         <ul>
-          <li><a href="#diensten">Diensten</a></li>
+          <li><a href="#diensten" data-i18n="nav.services">Diensten</a></li>
         </ul>
       </nav>
       <div class="site-footer__contact">
-        <h2>Contact</h2>
+        <h2 data-i18n="nav.contact">Contact</h2>
         <ul>
           <li><a href="tel:+31644843296">06 44 84 32 96</a></li>
           <li><a href="https://wa.me/31644843296">WhatsApp</a></li>
@@ -320,11 +321,12 @@
     </div>
     <div class="site-footer__bar">
       <div class="container">
-        <p>&copy; 2026 Annofix Installaties. Alle rechten voorbehouden.</p>
+        <p data-i18n="footer.copyright">&copy; 2026 Annofix Installaties. Alle rechten voorbehouden.</p>
       </div>
     </div>
   </footer>
 
+  <script src="js/i18n.js" defer></script>
   <script src="js/app.js" defer></script>
 </body>
 </html>

@@ -14,6 +14,67 @@
     });
   }
 
+  // ---- Taalwisseling (NL/EN) ----
+  var dict = window.ANNOFIX_I18N || { nl: {}, en: {} };
+  var LANG_KEY = 'annofix-lang';
+  var langToggle = document.getElementById('langToggle');
+  var currentLang = 'nl';
+
+  function t(key) {
+    return (dict[currentLang] && dict[currentLang][key]) || key;
+  }
+
+  function applyLang(lang) {
+    currentLang = dict[lang] ? lang : 'nl';
+    document.documentElement.lang = currentLang;
+
+    document.querySelectorAll('[data-i18n]').forEach(function (el) {
+      var key = el.getAttribute('data-i18n');
+      if (dict[currentLang][key] !== undefined) {
+        el.textContent = dict[currentLang][key];
+      }
+    });
+
+    document.querySelectorAll('[data-i18n-aria-label]').forEach(function (el) {
+      var key = el.getAttribute('data-i18n-aria-label');
+      if (dict[currentLang][key] !== undefined) {
+        el.setAttribute('aria-label', dict[currentLang][key]);
+      }
+    });
+
+    document.querySelectorAll('[data-i18n-content]').forEach(function (el) {
+      var key = el.getAttribute('data-i18n-content');
+      if (dict[currentLang][key] !== undefined) {
+        el.setAttribute('content', dict[currentLang][key]);
+      }
+    });
+
+    if (langToggle) {
+      langToggle.textContent = currentLang === 'nl' ? 'EN' : 'NL';
+    }
+
+    try {
+      localStorage.setItem(LANG_KEY, currentLang);
+    } catch (err) {
+      /* localStorage kan geblokkeerd zijn; taalkeuze werkt dan alleen voor dit bezoek */
+    }
+  }
+
+  var savedLang = 'nl';
+  try {
+    savedLang = localStorage.getItem(LANG_KEY) || 'nl';
+  } catch (err) {
+    savedLang = 'nl';
+  }
+  applyLang(savedLang);
+
+  if (langToggle) {
+    langToggle.addEventListener('click', function () {
+      applyLang(currentLang === 'nl' ? 'en' : 'nl');
+    });
+  }
+
+  // ---- Offerteformulier ----
   var form = document.querySelector('.offerte-form');
   var status = form && form.querySelector('.offerte-form__status');
   if (form) {
@@ -27,7 +88,7 @@
       var submitBtn = form.querySelector('button[type="submit"]');
       submitBtn.disabled = true;
       if (status) {
-        status.textContent = 'Versturen...';
+        status.textContent = t('form.sending');
         status.classList.remove('is-error');
       }
 
@@ -42,12 +103,12 @@
           }
           form.reset();
           if (status) {
-            status.textContent = 'Bedankt! Uw aanvraag is verstuurd, we nemen snel contact op.';
+            status.textContent = t('form.success');
           }
         })
         .catch(function () {
           if (status) {
-            status.textContent = 'Versturen is helaas mislukt. Bel of WhatsApp ons gerust direct.';
+            status.textContent = t('form.error');
             status.classList.add('is-error');
           }
         })
