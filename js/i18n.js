@@ -21,6 +21,8 @@ window.ANNOFIX_I18N = {
     "hero.trust1": "Eén vast aanspreekpunt",
     "hero.trust2": "Duidelijke prijsafspraken",
     "hero.trust3": "Particulier & zakelijk",
+    "hero.badgeTitle": "Vakwerk gegarandeerd",
+    "hero.badgeText": "Vaste prijsafspraken, geen verrassingen",
 
     "usps.ariaLabel": "Onze belofte",
     "usps.1.title": "Vast aanspreekpunt",
@@ -72,8 +74,8 @@ window.ANNOFIX_I18N = {
     "projects.h2": "Recent werk",
     "projects.lead": "Een greep uit onze uitgevoerde klussen.",
     "projects.item1": "Badkamerrenovatie",
-    "projects.item2": "Inloopdouche",
-    "projects.item3": "Toilet & afwerking",
+    "projects.item2": "Luxe badkamerafwerking",
+    "projects.item3": "Nieuw leidingwerk",
 
     "area.ariaLabel": "Servicegebied",
     "area.h2": "Werkzaam in heel Nederland",
@@ -111,7 +113,12 @@ window.ANNOFIX_I18N = {
 
     "footer.ariaLabel": "Footernavigatie",
     "footer.tagline": "Vakwerk in loodgieterij en installatie, voor heel Nederland.",
-    "footer.copyright": "© 2026 Annofix Installaties. Alle rechten voorbehouden."
+    "footer.copyright": "© 2026 Annofix Installaties. Alle rechten voorbehouden.",
+
+    "whatsappFloat.ariaLabel": "Stuur ons een WhatsApp-bericht",
+    "mobileCta.call": "Bel",
+    "mobileCta.whatsapp": "WhatsApp",
+    "mobileCta.offer": "Offerte"
   },
 
   en: {
@@ -136,6 +143,8 @@ window.ANNOFIX_I18N = {
     "hero.trust1": "One fixed point of contact",
     "hero.trust2": "Clear price agreements",
     "hero.trust3": "Residential & commercial",
+    "hero.badgeTitle": "Quality work guaranteed",
+    "hero.badgeText": "Fixed price agreements, no surprises",
 
     "usps.ariaLabel": "Our promise",
     "usps.1.title": "Fixed contact person",
@@ -187,8 +196,8 @@ window.ANNOFIX_I18N = {
     "projects.h2": "Recent work",
     "projects.lead": "A selection of jobs we've completed.",
     "projects.item1": "Bathroom renovation",
-    "projects.item2": "Walk-in shower",
-    "projects.item3": "Toilet & finishing",
+    "projects.item2": "Luxury bathroom finish",
+    "projects.item3": "New pipework",
 
     "area.ariaLabel": "Service area",
     "area.h2": "Active throughout the Netherlands",
@@ -226,6 +235,11 @@ window.ANNOFIX_I18N = {
 
     "footer.ariaLabel": "Footer navigation",
     "footer.tagline": "Quality work in plumbing and installation, throughout the Netherlands.",
-    "footer.copyright": "© 2026 Annofix Installaties. All rights reserved."
+    "footer.copyright": "© 2026 Annofix Installaties. All rights reserved.",
+
+    "whatsappFloat.ariaLabel": "Send us a WhatsApp message",
+    "mobileCta.call": "Call",
+    "mobileCta.whatsapp": "WhatsApp",
+    "mobileCta.offer": "Quote"
   }
 };

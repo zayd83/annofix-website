@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
+  <script>document.documentElement.classList.add('js')</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-i18n="meta.title">Annofix Installaties — Loodgieter voor heel Nederland</title>
   <meta name="description" data-i18n-content="meta.description" content="Annofix Installaties: uw vaste loodgieter voor lekkages, verstoppingen, sanitair, waterleidingen, riolering en onderhoud. Vakwerk, duidelijke afspraken, heel Nederland.">
@@ -61,6 +62,15 @@
         </div>
         <figure class="hero__media">
           <img src="assets/hero-loodgieter.jpg" alt="Loodgieter van Annofix aan het werk">
+          <div class="hero__badge">
+            <span class="hero__badge-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z"/><path d="M9 12l2 2 4-4.2"/></svg>
+            </span>
+            <div>
+              <strong data-i18n="hero.badgeTitle">Vakwerk gegarandeerd</strong>
+              <span data-i18n="hero.badgeText">Vaste prijsafspraken, geen verrassingen</span>
+            </div>
+          </div>
         </figure>
       </div>
     </section>
@@ -68,19 +78,23 @@
     <!-- ================= USP-STRIP ================= -->
     <section class="usps" data-i18n-aria-label="usps.ariaLabel" aria-label="Onze belofte">
       <div class="container usps__grid">
-        <div class="usp">
+        <div class="usp reveal">
+          <span class="usp__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.4"/><path d="M5 20c0-3.5 3.1-6 7-6s7 2.5 7 6"/></svg></span>
           <h2 class="usp__title" data-i18n="usps.1.title">Vast aanspreekpunt</h2>
           <p data-i18n="usps.1.text">Steeds dezelfde persoon. Geen doorschuiven.</p>
         </div>
-        <div class="usp">
+        <div class="usp reveal">
+          <span class="usp__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5h7l3 3v14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-16a1 1 0 0 1 1-1Z"/><path d="M9.5 13.5l1.8 1.8 3.2-3.8"/></svg></span>
           <h2 class="usp__title" data-i18n="usps.2.title">Heldere afspraken</h2>
           <p data-i18n="usps.2.text">Vooraf weet u wat het kost.</p>
         </div>
-        <div class="usp">
+        <div class="usp reveal">
+          <span class="usp__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8"/></svg></span>
           <h2 class="usp__title" data-i18n="usps.3.title">Nette uitvoering</h2>
           <p data-i18n="usps.3.text">Vakwerk en een schone werkplek.</p>
         </div>
-        <div class="usp">
+        <div class="usp reveal">
+          <span class="usp__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.4"/></svg></span>
           <h2 class="usp__title" data-i18n="usps.4.title">Heel Nederland</h2>
           <p data-i18n="usps.4.text">Particulier én zakelijk, door het hele land.</p>
         </div>
@@ -90,38 +104,45 @@
     <!-- ================= DIENSTEN ================= -->
     <section class="services" id="diensten">
       <div class="container">
-        <header class="section-head">
+        <header class="section-head reveal">
           <p class="eyebrow" data-i18n="services.eyebrow">Diensten</p>
           <h2 data-i18n="services.h2">Alles onder één dak voor water, sanitair en afvoer</h2>
           <p class="section-head__lead" data-i18n="services.lead">Van een acute lekkage tot een complete badkamer, alles bij één betrouwbare partij.</p>
         </header>
 
         <ul class="services__grid">
-          <li class="service-card">
+          <li class="service-card reveal">
+            <span class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 7.1 6 11.2A6 6 0 0 1 6 14.2C6 10.1 12 3 12 3Z"/></svg></span>
             <h3 data-i18n="services.1.title">Lekkages</h3>
             <p data-i18n="services.1.text">Een lekkage kan snel voor vervelende schade zorgen. Annofix helpt bij het opsporen en verhelpen van lekkages aan onder andere waterleidingen, kranen, sanitair en afvoeren. We zoeken eerst naar de oorzaak en zorgen vervolgens voor een passende en duurzame oplossing.</p>
           </li>
-          <li class="service-card">
+          <li class="service-card reveal">
+            <span class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v7M9 11.5 12 14l3-2.5"/></svg></span>
             <h3 data-i18n="services.2.title">Verstoppingen</h3>
             <p data-i18n="services.2.text">Last van een verstopte gootsteen, afvoer of toilet? We zoeken uit waar de verstopping zit en zorgen ervoor dat de afvoer weer goed doorloopt. Daarbij kijken we ook naar de mogelijke oorzaak, zodat het probleem niet onnodig terugkomt.</p>
           </li>
-          <li class="service-card">
+          <li class="service-card reveal">
+            <span class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16v2a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5v-2Z"/><path d="M6 12V7a2 2 0 0 1 2-2c1 0 1.6.5 2 1.2M3 12h18"/></svg></span>
             <h3 data-i18n="services.3.title">Sanitair &amp; badkamers</h3>
             <p data-i18n="services.3.text">Van het vervangen van een kraan of toilet tot het installeren van sanitair voor een complete badkamer. Annofix verzorgt het leiding- en installatiewerk en denkt mee over een praktische oplossing die past bij de ruimte en uw wensen.</p>
           </li>
-          <li class="service-card">
+          <li class="service-card reveal">
+            <span class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h7a3 3 0 0 1 3 3v9"/><path d="M4 6v3M17 15h3M14 18v3"/></svg></span>
             <h3 data-i18n="services.4.title">Waterleidingen</h3>
             <p data-i18n="services.4.text">Nieuwe waterleidingen nodig of bestaande leidingen laten aanpassen of vervangen? Wij verzorgen leidingwerk voor onder andere keukens, badkamers, toiletten en andere ruimtes. Ook bij verbouwingen of het verplaatsen van aansluitpunten kunt u bij ons terecht.</p>
           </li>
-          <li class="service-card">
+          <li class="service-card reveal">
+            <span class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v8"/><path d="M7 11h10l-1.5 9a1 1 0 0 1-1 .8h-5a1 1 0 0 1-1-.8L7 11Z"/></svg></span>
             <h3 data-i18n="services.5.title">Riolering</h3>
             <p data-i18n="services.5.text">Problemen met de riolering kunnen zorgen voor verstoppingen, lekkages en nare geuren. Annofix helpt bij het aanleggen, controleren, reinigen en repareren van riolering en zoekt gericht naar de oorzaak van het probleem.</p>
           </li>
-          <li class="service-card">
+          <li class="service-card reveal">
+            <span class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 4l9 7"/><path d="M5 10v9h14v-9"/></svg></span>
             <h3 data-i18n="services.6.title">Dakbedekking</h3>
             <p data-i18n="services.6.text">Een goed dak beschermt uw woning of bedrijfspand tegen vocht en lekkages. Wij verzorgen werkzaamheden aan dakbedekking en waterafvoer en kunnen beschadigingen of lekkages aan het dak herstellen.</p>
           </li>
-          <li class="service-card">
+          <li class="service-card reveal">
+            <span class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2-2 2.6-2.6Z"/></svg></span>
             <h3 data-i18n="services.7.title">Onderhoud &amp; reparatie</h3>
             <p data-i18n="services.7.text">Ook voor kleinere reparaties en onderhoudswerkzaamheden kunt u bij Annofix terecht. Denk aan lekkende kranen, problemen met afvoeren, leidingwerk of sanitair. Door problemen tijdig te verhelpen, kan grotere schade vaak worden voorkomen.</p>
           </li>
@@ -132,10 +153,10 @@
     <!-- ================= WAAROM ANNOFIX ================= -->
     <section class="why" id="over-ons">
       <div class="container why__inner">
-        <div class="why__media">
+        <div class="why__media reveal">
           <img src="assets/anouar-annofix.jpg" alt="Anouar van Annofix Installaties">
         </div>
-        <div class="why__content">
+        <div class="why__content reveal">
           <p class="eyebrow" data-i18n="why.eyebrow">Over Annofix</p>
           <h2 data-i18n="why.h2">Vakmanschap en persoonlijke service, zonder gedoe</h2>
           <p data-i18n="why.text">
@@ -156,20 +177,23 @@
     <!-- ================= WERKWIJZE ================= -->
     <section class="steps" data-i18n-aria-label="steps.ariaLabel" aria-label="Zo werken wij">
       <div class="container">
-        <header class="section-head">
+        <header class="section-head reveal">
           <p class="eyebrow" data-i18n="steps.eyebrow">Werkwijze</p>
           <h2 data-i18n="steps.h2">In drie stappen geregeld</h2>
         </header>
         <ol class="steps__list">
-          <li class="step">
+          <li class="step reveal">
+            <span class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a1 1 0 0 1 1-1h2.2a1 1 0 0 1 1 .8l.6 2.8a1 1 0 0 1-.3 1L7 10a12 12 0 0 0 7 7l1.4-1.5a1 1 0 0 1 1-.3l2.8.6a1 1 0 0 1 .8 1V19a1 1 0 0 1-1 1h-1C9.6 20 4 14.4 4 7V5Z"/></svg></span>
             <h3 data-i18n="steps.1.title">1 · Contact</h3>
             <p data-i18n="steps.1.text">Bel, WhatsApp of vul het formulier in. U krijgt snel persoonlijk antwoord.</p>
           </li>
-          <li class="step">
+          <li class="step reveal">
+            <span class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="1.5"/><path d="M4 9.5h16M8 3v3.6M16 3v3.6"/></svg></span>
             <h3 data-i18n="steps.2.title">2 · Offerte &amp; afspraak</h3>
             <p data-i18n="steps.2.text">We bespreken uw situatie en maken een heldere prijsafspraak.</p>
           </li>
-          <li class="step">
+          <li class="step reveal">
+            <span class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z"/><path d="M9 12l2 2 4-4.2"/></svg></span>
             <h3 data-i18n="steps.3.title">3 · Uitvoering</h3>
             <p data-i18n="steps.3.text">We voeren het werk vakkundig uit en leveren netjes op.</p>
           </li>
@@ -180,15 +204,15 @@
     <!-- ================= PROJECTEN ================= -->
     <section class="projects" id="projecten">
       <div class="container">
-        <header class="section-head">
+        <header class="section-head reveal">
           <p class="eyebrow" data-i18n="projects.eyebrow">Projecten</p>
           <h2 data-i18n="projects.h2">Recent werk</h2>
           <p class="section-head__lead" data-i18n="projects.lead">Een greep uit onze uitgevoerde klussen.</p>
         </header>
         <ul class="projects__grid">
-          <li class="project-card"><img src="assets/project-badkamer-wastafel.jpg" alt="Project — badkamerrenovatie, wastafelmeubel met spiegel"><h3 data-i18n="projects.item1">Badkamerrenovatie</h3></li>
-          <li class="project-card"><img src="assets/project-badkamer-douche.jpg" alt="Project — badkamerrenovatie, inloopdouche"><h3 data-i18n="projects.item2">Inloopdouche</h3></li>
-          <li class="project-card"><img src="assets/project-badkamer-toilet.jpg" alt="Project — badkamerrenovatie, toilet en afwerking"><h3 data-i18n="projects.item3">Toilet &amp; afwerking</h3></li>
+          <li class="project-card reveal"><img src="assets/project-badkamer-wastafel.jpg" alt="Project — badkamerrenovatie, wastafelmeubel met spiegel"><h3 data-i18n="projects.item1">Badkamerrenovatie</h3></li>
+          <li class="project-card reveal"><img src="assets/project-badkamer-luxe.jpg" alt="Project — luxe badkamerafwerking"><h3 data-i18n="projects.item2">Luxe badkamerafwerking</h3></li>
+          <li class="project-card reveal"><img src="assets/project-leidingwerk.jpg" alt="Project — nieuw leidingwerk"><h3 data-i18n="projects.item3">Nieuw leidingwerk</h3></li>
         </ul>
       </div>
     </section>
@@ -196,7 +220,7 @@
     <!-- ================= SERVICEGEBIED ================= -->
     <section class="area" data-i18n-aria-label="area.ariaLabel" aria-label="Servicegebied">
       <div class="container area__inner">
-        <div class="area__content">
+        <div class="area__content reveal">
           <h2 data-i18n="area.h2">Werkzaam in heel Nederland</h2>
           <p data-i18n="area.text">Waar u ook zit. Wij komen bij u langs voor particulier en zakelijk werk. Twijfelt u of we bij u werken? Neem contact op, we denken graag mee.</p>
           <a class="btn btn--ghost" href="tel:+31644843296" data-i18n="area.cta">Bel 06 44 84 32 96</a>
@@ -207,24 +231,24 @@
     <!-- ================= FAQ ================= -->
     <section class="faq" id="faq">
       <div class="container">
-        <header class="section-head">
+        <header class="section-head reveal">
           <p class="eyebrow" data-i18n="faq.eyebrow">Veelgestelde vragen</p>
           <h2 data-i18n="faq.h2">Goed om te weten</h2>
         </header>
         <div class="faq__list">
-          <details class="faq-item">
+          <details class="faq-item reveal">
             <summary data-i18n="faq.q1">Werken jullie in heel Nederland?</summary>
             <p data-i18n="faq.a1">Ja. We helpen particulieren en bedrijven door het hele land.</p>
           </details>
-          <details class="faq-item">
+          <details class="faq-item reveal">
             <summary data-i18n="faq.q2">Kan ik vooraf een prijsindicatie krijgen?</summary>
             <p data-i18n="faq.a2">Zeker. We maken vooraf heldere afspraken, zodat u niet voor verrassingen komt te staan.</p>
           </details>
-          <details class="faq-item">
+          <details class="faq-item reveal">
             <summary data-i18n="faq.q3">Voor welke klussen kan ik terecht?</summary>
             <p data-i18n="faq.a3">Van lekkages en verstoppingen tot sanitair, waterleidingen, riolering, dakbedekking en onderhoud.</p>
           </details>
-          <details class="faq-item">
+          <details class="faq-item reveal">
             <summary data-i18n="faq.q4">Hoe snel kan ik geholpen worden?</summary>
             <p data-i18n="faq.a4">Neem contact op via telefoon of WhatsApp; we reageren snel en plannen samen een moment in.</p>
           </details>
@@ -235,7 +259,7 @@
     <!-- ================= CONTACT / OFFERTE ================= -->
     <section class="contact" id="offerte">
       <div class="container contact__inner">
-        <div class="contact__intro">
+        <div class="contact__intro reveal">
           <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
           <h2 data-i18n="contact.h2">Offerte aanvragen of direct contact</h2>
           <p data-i18n="contact.text">Laat uw gegevens achter voor een vrijblijvende offerte, of neem meteen contact op.</p>
@@ -246,7 +270,7 @@
           </ul>
         </div>
 
-        <form class="offerte-form" action="https://formsubmit.co/info@annofixinstallaties.nl" method="POST">
+        <form class="offerte-form reveal" action="https://formsubmit.co/info@annofixinstallaties.nl" method="POST">
           <input type="hidden" name="_subject" value="Nieuwe offerteaanvraag via de website">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_captcha" value="false">
@@ -325,6 +349,16 @@
       </div>
     </div>
   </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/31644843296" target="_blank" rel="noopener" data-i18n-aria-label="whatsappFloat.ariaLabel" aria-label="Stuur ons een WhatsApp-bericht">
+    <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.02 3C9.4 3 4.02 8.37 4.02 15c0 2.25.62 4.36 1.7 6.17L3 29l8.04-2.6a11.9 11.9 0 0 0 4.98 1.07h.01c6.62 0 12-5.37 12-12S22.65 3 16.02 3Zm0 21.64c-1.6 0-3.17-.43-4.54-1.24l-.33-.2-4.77 1.54 1.56-4.65-.21-.34a9.6 9.6 0 0 1-1.47-5.15c0-5.33 4.34-9.66 9.67-9.66 2.58 0 5 1 6.83 2.84a9.6 9.6 0 0 1 2.83 6.82c0 5.33-4.34 9.68-9.67 9.68 0 0 .1 0 .1 0Zm5.3-7.25c-.29-.15-1.72-.85-1.99-.95-.27-.1-.46-.15-.66.15-.19.29-.75.95-.92 1.14-.17.19-.34.22-.63.07-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.44-1.71-1.6-2-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.5.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.15-.66-1.59-.9-2.18-.24-.57-.48-.49-.66-.5h-.56c-.19 0-.5.07-.77.36-.27.29-1 1-1 2.42s1.03 2.8 1.17 3c.15.19 2.02 3.09 4.9 4.33.68.3 1.22.47 1.63.6.68.22 1.3.19 1.8.11.55-.08 1.72-.7 1.96-1.38.24-.68.24-1.26.17-1.38-.07-.12-.26-.2-.55-.34Z"/></svg>
+  </a>
+
+  <div class="mobile-cta">
+    <a class="btn btn--ghost" href="tel:+31644843296" data-i18n="mobileCta.call">Bel</a>
+    <a class="btn btn--whatsapp" href="https://wa.me/31644843296" data-i18n="mobileCta.whatsapp">WhatsApp</a>
+    <a class="btn btn--primary" href="#offerte" data-i18n="mobileCta.offer">Offerte</a>
+  </div>
 
   <script src="js/i18n.js" defer></script>
   <script src="js/app.js" defer></script>
