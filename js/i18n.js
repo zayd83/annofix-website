@@ -75,7 +75,9 @@ window.ANNOFIX_I18N = {
     "projects.lead": "Een greep uit onze uitgevoerde klussen.",
     "projects.item1": "Badkamerrenovatie",
     "projects.item2": "Luxe badkamerafwerking",
-    "projects.item3": "Nieuw leidingwerk",
+    "projects.item3": "Complete marmeren badkamer",
+    "projects.item4": "Marmeren inloopdouche",
+    "projects.item5": "Marmeren wastafelmeubel",
 
     "area.ariaLabel": "Servicegebied",
     "area.h2": "Werkzaam in heel Nederland",
@@ -197,7 +199,9 @@ window.ANNOFIX_I18N = {
     "projects.lead": "A selection of jobs we've completed.",
     "projects.item1": "Bathroom renovation",
     "projects.item2": "Luxury bathroom finish",
-    "projects.item3": "New pipework",
+    "projects.item3": "Complete marble bathroom",
+    "projects.item4": "Marble walk-in shower",
+    "projects.item5": "Marble vanity unit",
 
     "area.ariaLabel": "Service area",
     "area.h2": "Active throughout the Netherlands",
